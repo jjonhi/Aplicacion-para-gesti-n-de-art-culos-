@@ -1,0 +1,9 @@
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\bin\Debug\negocio.dll
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\bin\Debug\negocio.pdb
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\bin\Debug\dominio.dll
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\bin\Debug\dominio.pdb
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\obj\Debug\negocio.dll
+C:\Users\const\OneDrive\Escritorio\TPFinalNivel2_Jonatahn_Constante\negocio\obj\Debug\negocio.pdb
