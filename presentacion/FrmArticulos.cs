@@ -252,5 +252,11 @@ namespace presentacion
         {
             Close();
         }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            FrmReporte reporte = new FrmReporte();
+            reporte.ShowDialog();
+        }
     }
 }

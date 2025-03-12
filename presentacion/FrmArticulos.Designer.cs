@@ -31,6 +31,7 @@
             this.dgvArticulo = new System.Windows.Forms.DataGridView();
             this.pbArticulo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnReporte = new System.Windows.Forms.Button();
             this.btnCerrarArticulo = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnBusqueda = new System.Windows.Forms.Button();
@@ -46,11 +47,13 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArticulo)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvArticulo
@@ -85,12 +88,9 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnCerrarArticulo);
+            this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.btnEliminar);
-            this.panel1.Controls.Add(this.btnModificar);
-            this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 272);
@@ -99,10 +99,20 @@
             this.panel1.Size = new System.Drawing.Size(802, 445);
             this.panel1.TabIndex = 2;
             // 
+            // btnReporte
+            // 
+            this.btnReporte.Location = new System.Drawing.Point(396, 40);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(214, 40);
+            this.btnReporte.TabIndex = 6;
+            this.btnReporte.Text = "Ver Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
             // btnCerrarArticulo
             // 
             this.btnCerrarArticulo.Font = new System.Drawing.Font("Nirmala Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarArticulo.Location = new System.Drawing.Point(434, 23);
+            this.btnCerrarArticulo.Location = new System.Drawing.Point(634, 40);
             this.btnCerrarArticulo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnCerrarArticulo.Name = "btnCerrarArticulo";
             this.btnCerrarArticulo.Size = new System.Drawing.Size(100, 40);
@@ -228,7 +238,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Nirmala Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(299, 23);
+            this.btnEliminar.Location = new System.Drawing.Point(275, 40);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(100, 40);
@@ -240,7 +250,7 @@
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Nirmala Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(154, 23);
+            this.btnModificar.Location = new System.Drawing.Point(130, 40);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(100, 40);
@@ -252,7 +262,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Nirmala Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(12, 23);
+            this.btnAgregar.Location = new System.Drawing.Point(-1, 40);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 40);
@@ -260,6 +270,20 @@
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnAgregar);
+            this.groupBox3.Controls.Add(this.btnReporte);
+            this.groupBox3.Controls.Add(this.btnModificar);
+            this.groupBox3.Controls.Add(this.btnCerrarArticulo);
+            this.groupBox3.Controls.Add(this.btnEliminar);
+            this.groupBox3.Location = new System.Drawing.Point(12, 6);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(766, 99);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Botones para Modificar";
             // 
             // FrmArticulos
             // 
@@ -284,6 +308,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -308,5 +333,7 @@
         private System.Windows.Forms.Label lblCampo;
         private System.Windows.Forms.Button btnBusqueda;
         private System.Windows.Forms.Button btnCerrarArticulo;
+        private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
